@@ -1,0 +1,40 @@
+body {margin: 0; }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a { 
+    text-decoration: none; color: inherit;
+}
+.w_1140 {
+    width: 1140px;
+    margin: 0 auto;
+
+    height: 100%;
+    position: relative; 
+}
+.w_980 {
+    width: 980px;
+    margin: 0 auto;
+
+    height: 100%;
+    position: relative; 
+}
+
+.w_1200 {
+    width: 1200px;
+    margin: 0 auto;
+
+    height: 100%;
+    position: relative; 
+}
+.mr_0 {margin-right: 0 !important ;}
+
+.w_1150 {
+    width: 1140px;
+    margin: 0 auto;
+
+    height: 100%;
+    position: relative; 
+}
