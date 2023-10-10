@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    
+    <script defer src="./js/샤이닝홈/777.샤이닝홈(load_list).js" ></script>
+    <script defer src="./js/샤이닝홈/777.샤이닝홈(상세).js" ></script>
+    <script defer src="./js/샤이닝홈/777.샤이닝홈(회원가입).js" ></script>
+
+    <link rel="stylesheet" href="./css/777.샤이닝홈.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/777.(회원가입)샤이닝홈.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="header_top">
+                <div class="inner_top">
+                    <div class="inner_txt_box">
+                        <div><a href="./777.(로그인)샤이닝홈.html">로그인</a></div>
+                        <div>
+                            <a href="./777.(회원가입)샤이닝홈.html">회원가입</a>
+                            <div>+2000P</div>
+                        </div>
+                        <div>
+                            <a href="#">장바구니<span>0</span></a>
+                            
+                        </div>
+                        <div><a href="#">주문조회</a></div>
+                        <div><a href="#">마이페이지</a></div>
+                        <div>
+                            <a href="#">
+                            <img src="./img/샤이닝홈/kor.png" alt="">
+                            </a>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="header_mid">
+                <a href="./777.샤이닝홈.html" id="header_goto">
+                    <img src="./img/샤이닝홈/logo.png" alt="">
+                </a>
+                <div class="mid_search">
+                    <div class="mid_search_t">
+                        <div class="mid_search_t_item">
+                            <span class="num">1</span>
+                            <span>여름홀이불</span>
+                        </div>
+                        <div class="mid_search_t_item">
+                            <span class="num">2</span>
+                            <span>냉감이불</span>
+                        </div>
+                        <div class="mid_search_t_item">
+                            <span class="num">3</span>
+                            <span>여름차렵이불</span>
+                        </div>
+                        <div class="mid_search_t_item">
+                            <span class="num">4</span>
+                            <span>먼지없는이불</span>
+                        </div>
+                        <div class="mid_search_t_item">
+                            <span class="num">5</span>
+                            <span>쇼파패드</span>
+                        </div>
+                        <div class="mid_search_t_item">
+                            <span class="num">6</span>
+                            <span>매트리스커버</span>
+                        </div>
+                        <div class="mid_search_t_item">
+                            <span class="num">7</span>
+                            <span>침대패드</span>
+                        </div>
+                    </div>
+                    <div class="mid_search_b">
+                        <input type="text" class="mid_search_input" placeholder="상품명을 검색해보세요">
+                        <img src="img/샤이닝홈/blueserch.jpeg" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="header_bot">
+                <div class="menu">
+                    <div class="menu_item">
+                        <a href="#">BEST</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">NEW</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">침구</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">침구세트</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">커튼</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">카페트</a>
+                        
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">쿠션&amp;방석</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">패브릭&amp;소품</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">매트리스</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">홈데코</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">리빙</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">먼지없는 이불</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">알러지케어</a>
+                    </div>
+                    
+                    <div class="pan">
+                        <div class="contents_area">
+                            
+                            <div class="pan_item" id="pan1">
+                                <div>침구BEST</div>
+                                <div>여름이불</div>
+                                <div>간절기이불</div>
+                                <div>차렵이불</div>
+                                <div>겨울이불</div>
+                                <div>유아</div>
+                                <div>매트커버</div>
+                                <div>침대패드</div>
+                                <div>토퍼</div>
+                                <div>배개커버</div>
+                                <div>캠핑침구</div>
+                            </div>
+                            <div class="pan_item" id="pan2">
+                                <div>이불베개세트</div>
+                                <div>이불풀세트</div>
+                                <div>여름베개세트</div>
+                                <div>여름풀세트</div>
+                            </div>
+                            <div class="pan_item" id="pan3">
+                                <div>맞춤커튼</div>
+                                <div>프리미엄커튼</div>
+                                <div>암막커튼</div>
+                                <div>이중암막커트</div>
+                                <div>형상기억커튼</div>
+                                <div>레이스커튼</div>
+                                <div>쉬폰&속커튼</div>
+                                <div>바란스커튼</div>
+                                <div>한폭커튼</div>
+                                <div>커튼봉&악세사리</div>
+                            </div>
+                            <div class="pan_item" id="pan4">
+                                <div>카페트BEST</div>
+                                <div>가로100(0.5평)</div>
+                                <div>가로150(1평)</div>
+                                <div>가로170(1.5평)</div>
+                                <div>가로200(2평)</div>
+                                <div>가로200이상</div>
+                                <div>원형카페트</div>
+                                <div>발매트(M)</div>
+                                <div>주방매트(L)</div>
+                                <div>시원한 쿨매트</div>
+                                <div>먼지적은 카페트</div>
+                                <div>푹신한 카페트</div>
+                            </div>
+                            <div class="pan_item" id="pan5">
+                                <div>쿠션</div>
+                                <div>방석</div>
+                                <div>등받이쿠션</div>
+                                <div>쿠션&방석세트</div>
+                                <div>솜</div>
+                            </div>
+                            <div class="pan_item" id="pan6">
+                                <div>담요</div>
+                                <div>소파패드</div>
+                                <div>바디필로우</div>
+                                <div>패브릭포스터</div>
+                                <div>앞치마</div>
+                                <div>식탁보</div>
+                                <div>주방매트</div>
+                                
+                            </div>
+                            <div class="pan_item" id="pan7">
+                                <div>메모리폼 매트리스</div>
+                                <div>토퍼 매트리스</div>
+                                <div>접이식 매트리스</div>
+                            </div>
+                            <div class="pan_item" id="pan8">
+                                <div>라탄용품</div>
+                                <div>조화&화병</div>
+                                <div>월데코</div>
+                                <div>조명</div>
+                            </div>
+                            <div class="pan_item" id="pan9">
+                                <div>수납정리</div>
+                                <div>욕실용품</div>
+                                <div>세탁용품</div>
+                                <div>주방용품</div>
+                                <div>실내화</div>
+                                <div>우산</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                   
+                    
+            </div>
+        </div>
+
+
+        <div class="container1">
+            <div class="join_title">JOIN</div>
+            <div class="join_body">
+                <!-- <form action=""> -->
+                <table border="0" cellspacing="0">
+                    <caption>회원 기본정보</caption>
+                    <tbody>
+                        <tr>
+                            <th>아이디
+                                <img src="./img/샤이닝홈/ico_required_blue.gif" alt="필수">
+                            </th>
+                            <td>
+                                <input type="text" id="member_id" name="member_id" placeholder="아이디 입력"
+                                maxlength="16">
+                                <span class="error error_id"></span>
+                                (영문 대소문자/숫자,4~16자)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>비밀번호
+                                <img src="./img/샤이닝홈/ico_required_blue.gif" alt="필수">
+                            </th>
+                            <td>
+                                <input type="password" maxlength="16" name="member_pw"
+                                id="member_pw" placeholder="비밀번호 입력">
+                                <span class="error error_pw"></span>
+                                (특수문자,문자,숫자포함 현태의 5~15자리 )        
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>비밀번호 확인
+                                <img src="./img/샤이닝홈/ico_required_blue.gif" alt="필수">
+                            </th>
+                            <td>
+                                <input type="password" maxlength="16" name="member_pw2" id="member_pw2" placeholder="비밀번호 재입력">
+                                <span class="error error_pw_re"></span>
+                          
+                            </td>
+                        </tr>
+
+                        <tr id="nametitle">
+                            <th>이름
+                                <img src="./img/샤이닝홈/ico_required_blue.gif" alt="필수">
+                            </th>
+                            <td>
+                                <input type="text" maxlength="15"
+                                name="member_name" id="member_name" placeholder="이름 입력">
+                                <span class="error error_name"></span>
+                          
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <th>휴대전화
+                                <img src="./img/샤이닝홈/ico_required_blue.gif" alt="필수">
+                            </th>
+                            <td>
+                                <select name="member_mobile" id="mobile1">
+                                    <option value="SKT">SKT</option>
+                                    <option value="KT">KT</option>
+                                    <option value="LG">LG</option>
+                                </select>
+                                
+                                <select name="member_mobile" id="mobile2">
+                                    <option value="010">010</option>
+                                    
+                                </select>
+                                -
+                                <input maxlength="4" type="text" name="member_mobile" id="mobile3">
+                                <!-- <span class="error error_mobile"></span> -->
+                                -
+                                <input maxlength="4" type="text" name="member_mobile" id="mobile4">
+                                <span class="error error_mobile"></span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>이메일
+                                <img src="./img/샤이닝홈/ico_required_blue.gif" alt="필수">
+                            </th>
+                            <td>
+                                <input type="text" name="member_email" id="member_email" placeholder="이메일앞주소">
+                                
+                                @
+                                <select name="member_email" id="member_email1">
+                                    <option value="init" selected >선택해주세요</option>
+                                    <option value="hamail.net">hamail.net</option>
+                                    <option value="naver.com">
+                                    naver.com
+                                    </option>
+                                    <option value="daum.net">
+                                    daum.net
+                                    </option>
+                                    <option value="gmail.com">
+                                        gmail.com
+                                        </option>
+                                </select>
+                                <span class="error error_email"></span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <!-- <div>
+                    <a href="" class="button_btn">확인하기</a>
+                </div> -->
+                <!-- <button type="submit" class="button_btn" value="회원가입"></button> -->
+            <!-- </form> -->
+            </div>
+<!-- 
+            <div class="body2"> -->
+                <div class="join_title2">전체 동의</div>
+                
+
+                <div class="join_agr_box agr_total">
+                    <div>
+                        <div class="agr_chkbox">
+                            <input type="checkbox" id="agr_totalchk">
+                            <div class="agr_imgbox"></div>
+                        </div>
+                        <label class="agr_totalchk_label" for="agr_totalchk">
+                            <div>이용약관 및 개인정보수집 및 이용, 쇼핑정보 수신(선택)에 모두 동의합니다.</div>
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="join_agr_box agr_area">
+                    <h3>[필수] 이용약관 동의</h3>
+                    <div class="content">
+                        <div class="agr_view">
+                            <p>
+                                제1조(목적)<br>
+                                이 약관은 OO 회사(전자상거래 사업자)가 운영하는 OO 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리.의무 및 책임사항을 규정함을 목적으로 합니다.<br>
+                                ※「PC통신, 무선 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다.」
+                            </p>
+                            <p>
+                                제2조(정의) <br>
+                                ① “몰”이란 OO 회사가 재화 또는 용역(이하 “재화 등”이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 사이버몰을 운영하는 사업자의 의미로도 사용합니다. <br>
+                                ② “이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.
+                            </p>
+                            <p>
+                                제3조 (약관 등의 명시와 설명 및 개정)  <br>
+                                ① “몰”은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호.모사전송번호.전자우편주소, 사업자등록번호, 통신판매업 신고번호, 개인정보보호책임자등을 이용자가 쉽게 알 수 있도록 00 사이버몰의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가 연결화면을 통하여 볼 수 있도록 할 수 있습니다. <br>
+                                ② “몰은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회.배송책임.환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는 팝업화면 등을 제공하여 이용자의 확인을 구하여야 합니다.
+                            </p>
+                            <p>
+                                제4조(서비스의 제공 및 변경)  <br>
+                                ① “몰”은 다음과 같은 업무를 수행합니다. <br>
+                                2. 구매계약이 체결된 재화 또는 용역의 배송 <br>
+                                3. 기타 “몰”이 정하는 업무 <br>
+                                ② “몰”은 재화 또는 용역의 품절 또는 기술적 사양의 변경 등의 경우에는 장차 체결되는 계약에 의해 제공할 재화 또는 용역의 내용을 변경할 수 있습니다. 이 경우에는 변경된 재화 또는 용역의 내용 및 제공일자를 명시하여 현재의 재화 또는 용역의 내용을 게시한 곳에 즉시 공지합니다. 
+                                <br>
+                            <p>
+                                제5조(서비스의 중단) <br>
+                                ① “몰”은 컴퓨터 등 정보통신설비의 보수점검.교체 및 고장, 통신의 두절 등의 사유가 발생한 경우에는 서비스의 제공을 일시적으로 중단할 수 있습니다. <br>
+                                ② “몰”은 제1항의 사유로 서비스의 제공이 일시적으로 중단됨으로 인하여 이용자 또는 제3자가 입은 손해에 대하여 배상합니다. 단, “몰”이 고의 또는 과실이 없음을 입증하는 경우에는 그러하지 아니합니다. <br>
+                                ③ 사업종목의 전환, 사업의 포기, 업체 간의 통합 등의 이유로 서비스를 제공할 수 없게 되는 경우에는 “몰”은 제8조에 정한 방법으로 이용자에게 통지하고 당초 “몰”에서 제시한 조건에 따라 소비자에게 보상합니다. 다만, “몰”이 보상기준 등을 고지하지 아니한 경우에는 이용자들의 마일리지 또는 적립금 등을 “몰”에서 통용되는 통화가치에 상응하는 현물 또는 현금으로 이용자에게 지급합니다. <br>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="small_check">
+                        <span>이용약관에 동의하십니까?</span>
+                        <input type="checkbox" id=" agr_small_chk1" class="agr_small_chk">
+                        <label for="agr_small_chk1">동의함</label>
+                    </div>
+                </div>
+
+                <div class="join_agr_box agr_area">
+
+                    <h3>[필수] 개인정보 수집 및 이용 동의</h3>
+                    <div class="content">
+                        <div class="agr_view">
+                            <p>
+                                ** 본 양식은 쇼핑몰 운영에 도움을 드리고자 샘플로 제공되는 서식으로 쇼핑몰 운영형태에 따른 수정이 필요합니다. 쇼핑몰에 적용하시기 전, 쇼핑몰 운영 사항 등을 확인하시고 적절한 내용을 반영하여 사용하시기 바랍니다. **
+                            </p>
+                            
+                            <p>
+                                1. 개인정보 수집목적 및 이용목적
+                            </p>
+                                가. 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산
+                            </p>
+                            <p>
+                                콘텐츠 제공 , 구매 및 요금 결제 , 물품배송 또는 청구지 등 발송 , 금융거래 본인 인증 및 금융 서비스
+                            </p>
+                            <p>
+                                나. 회원 관리
+                            </p>
+                            <p>
+                                회원제 서비스 이용에 따른 본인확인 , 개인 식별 , 불량회원의 부정 이용 방지와 비인가 사용 방지 , 가입 의사 확인 , 연령확인 , 만14세 미만 아동 개인정보 수집 시 법정 대리인 동의여부 확인, 불만처리 등 민원처리 , 고지사항 전달
+                            </p>
+                            <p>
+                                2. 수집하는 개인정보 항목 : 이름 , 로그인ID , 비밀번호 , 이메일 , 14세미만 가입자의 경우 법정대리인의 정보
+                            </p>
+                            <p>
+                                3. 개인정보의 보유기간 및 이용기간
+                            </p>
+                            <p>
+                                원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.
+                            </p>
+                            <p>
+                                가. 회사 내부 방침에 의한 정보 보유 사유
+                            </p>
+                            <p>
+                                o 부정거래 방지 및 쇼핑몰 운영방침에 따른 보관 : OO년
+                            </p>
+                            <p>
+                                나. 관련 법령에 의한 정보보유 사유
+                            </p>
+                            <p>
+                                o 계약 또는 청약철회 등에 관한 기록
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="small_check">
+                        <span>개인정보 수집 및 이용에 동의하십니까?</span>
+                        <input type="checkbox" id=" agr_small_chk2" class="agr_small_chk">
+                        <label for="agr_small_chk2">동의함</label>
+                    </div>
+
+                    
+                </div>
+
+                <div class="join_agr_box agr_area">
+
+                    <h3>[선택] 쇼핑정보 수신 동의</h3>
+                    <div class="content content3">
+                        <div class="agr_view ">
+                            <p>
+                                할인쿠폰 및 혜택, 이벤트, 신상품 소식 등 쇼핑몰에서 제공하는 유익한 쇼핑정보를 SMS나 이메일로 받아보실 수 있습니다.
+                            </p>
+                            <p>
+                                단, 주문/거래 정보 및 주요 정책과 관련된 내용은 수신동의 여부와 관계없이 발송됩니다.
+                            
+                            </p>
+                            <p>
+                                선택 약관에 동의하지 않으셔도 회원가입은 가능하며, 회원가입 후 회원정보수정 페이지에서 언제든지 수신여부를 변경하실 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="small_check">
+                        <span>쇼핑정보 수신 동의하십니까?</span>
+                        <input type="checkbox" id="agr_small_chk2" class="agr_small_chk">
+                        <label for="agr_small_chk2">동의함</label>
+                    </div>
+                    
+                </div>
+                
+                <div class="chk_submit_box">
+                    <a href="" class="chk_submit_btn">
+                        회원가입
+                    </a>
+                </div>
+            <!-- </div> -->
+            
+        </div>
+
+
+
+        <div class="footer">
+            <div class="inusroom_box">
+                <div class="inusroom">
+                    <div class="inusroom_logo_box">
+                        <a href="#">
+                            <img src="./img/샤이닝홈/isusroom/isusroom-logo.jpg" alt="">
+                            <span class="inusroom_logo_txt1">inusroom_official</span>
+                            <span class="inusroom_logo_txt2">Follow</span>
+                        </a>
+                    </div>
+    
+                    <div class="inusroom_ul_box">
+                        <div class="inusroom_ul">
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom31.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom1.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom2.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom3.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom4.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom5.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom6.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom7.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom8.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom9.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom10.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom11.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom12.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom13.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom14.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom15.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom16.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom17.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom18.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom19.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom20.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom21.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom22.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom23.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom24.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom25.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom26.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom27.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom28.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="inusroom_li inusroom_li1">
+                                <img src="./img/샤이닝홈/isusroom/isusroom29.jpg" alt="">
+                                <div class="small_box">
+                                    
+                                </div>
+                                <div class="inusroom_black">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon1.jpg" alt="">
+                                    <img src="./img/샤이닝홈/isusroom/isusroom-icon2.jpg" alt="">
+                                </div>
+                            </div>
+    
+                            
+                            
+                        </div>
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="footer_banner">
+                <div class="footer_t_box">
+                    <div class="footer_t_l">NOTICE</div>
+                    <span class="f_span1">＜</span><span class="f_span2">＞</span>
+    
+                    <div class="footer_slide_box">
+                        <div class="footer_slide_txt">
+                            <div>카카오채널 친구 추가이벤트</div>
+                            <div>05/11</div>
+                        </div>
+    
+                        <div class="footer_slide_txt">
+                            <div>리뷰작성이벤트</div>
+                            <div>05/11</div>
+                        </div>
+    
+                        <div class="footer_slide_txt">
+                            <div>구매금액1% 적립이벤트</div>
+                            <div>05/12</div>
+                        </div>
+    
+                        <div class="footer_slide_txt">
+                            <div>샤이닝홈 회원을 위한 멤버쉽혜택</div>
+                            <div>05/12</div>
+                        </div>
+                    </div>
+    
+                    <div class="footer_t_r">+</div>
+                </div>
+            </div>
+    
+            <div class="footer_final">
+                <div class="footer_f_box">
+                    <div class="footer_f_box_l">
+                        <div class="footer_l_li footer_l_li1">
+                            <img src="./img/샤이닝홈/fotter/footerimg.png" alt="">
+                        </div>
+                        <div class="footer_l_li footer_l_li2">
+                            <h4>고객센터</h4>
+                            <h3>01074901015</h3>
+                            <p>평일 오전9시~오후5시 주말,공휴일 휴무</p>
+                            <div class="blue_hover">공지사항 바로가기</div>
+                        </div>
+                        <div class="footer_l_li footer_l_li3">
+                            <h4>계좌정보</h4>
+                            <p>농협 301-0300-7471-11</p>
+                            <div>예금주 : 주식회사 샤이닝홈</div>
+                            <div class="blue_hover">문의게시판 바로가기</div>
+                        </div>
+                        <div class="footer_l_li footer_l_li4">
+                            <h4>교환ㆍ반품</h4>
+                            <p>반품 주소 : 경기도 용인시 기흥구 구성로 357 용인테크노밸리 A동 801호</p>
+                            <p>※ 교환 및 반품시 게시판을 통해 먼저 접수해주세요.</p>
+                        </div>
+                    </div>
+                    <div class="footer_f_box_r">
+                        <div class="footer_r_t">
+                            <div class="footer_r_t_li">회사소개</div>
+                            <div class="footer_r_t_li">이용약관</div>
+                            <div class="footer_r_t_li">개인정보처리방침</div>
+                            <div class="footer_r_t_li footer_r_t_li4">쇼핑몰 이용안내</div>
+                        </div>
+    
+                        <div class="footer_r_b">
+                            <p class="footer_p1">상호명 주식회사 샤이닝홈 │ 대표 서상숙 │ 대표전화 01074901015 │ 개인정보관리책임자 박양호(shininghome2@naver.com) │ 주소 16914 경기도 용인시 기흥구 구성로 357 (청덕동) 용인테크노밸리 A동 801호 │ 사업자등록번호 412-81-56730 [사업자정보확인] │ 통신판매업신고 제 2021-용인기흥-2770 호</p>
+    
+                            <p class="footer_p2">COPYRIGHT © shininghome ALL RIGHTS RESERVED.</p>
+                            <p class="footer_p3">DESIGN BY DESIGNCUBE.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side_bar">
+            <div class="bar_item bar_item1">
+                <a href=""><img src="./img/샤이닝홈/icon_box/icon3.png" alt=""></a>
+                <div>장바구니</div>
+            </div>
+            <div class="bar_item bar_item2">
+                <a href=""><img src="./img/샤이닝홈/icon_box/icon4.png" alt=""></a>
+                <div>관심상품</div>
+            </div>
+            <div class="bar_item bar_item3">
+                <a href=""><img src="./img/샤이닝홈/icon_box/icon5.png" alt=""></a>
+                <div>즐겨찾기</div>
+            </div>
+            <div class="bar_item bar_item4">
+                <a href=""><img src="./img/샤이닝홈/icon_box/icon_naver.png" alt=""></a>
+                <div>네이버톡톡</div>
+            </div>
+            <div class="bar_item bar_item5">
+                <a href=""><img src="./img/샤이닝홈/icon_box/icon_cacao.png" alt=""></a>
+                <div>카카오상담</div>
+            </div>
+            <a href="#"><div class="bar_item bar_item6">
+                TOP
+            </div></a>
+        </div>
+    
+</body>
+</html>
